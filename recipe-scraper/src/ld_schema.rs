@@ -79,6 +79,7 @@ pub enum InstructionWrapper {
     B(Vec<BOrWrapper>),
     C(String),
     D(Vec<Vec<RecipeInstructionA>>),
+    E(Vec<String>),
 }
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]

@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "aggregateRating": {
+    "ratingCount": 9,
+    "ratingValue": 3.2222222222222223
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Saskia Sidey"
+  },
+  "cookTime": "PT10M",
+  "description": "Be bold when you flip this cabbage pancake – even if it falls apart, it’ll taste just as good! This tasty cabbage pancake is surprisingly moreish and you won’t believe how complex the sauce tastes with just two ingredients. \r\n\r\nThis recipe is part of a <a href=\"https://www.bbc.co.uk/food/articles/budget_vegan_meal_plan_for_one\"> Budget vegan meal plan for one</a>. In March 2023 this recipe was costed at an average of £1.53 when checking prices at three UK supermarkets. This recipe is designed to be made in conjunction with a <a href=\"https://www.bbc.co.uk/food/articles/budget_recipes\">low-cost store-cupboard</a>.\r\n",
+  "image": [
+    "https://food-images.files.bbci.co.uk/food/recipes/okonomiyaki_26987_16x9.jpg"
+  ],
+  "keywords": "quick, cheap vegan dinners, meals for one, pancakes for dinner, vegan recipes under £1.50, student food, cabbage, dairy free, egg free, nut free, pregnancy friendly, vegan, vegetarian",
+  "name": "Vegan okonomiyaki ",
+  "prepTime": "PT30M",
+  "recipeCategory": "Light meals & snacks",
+  "recipeCuisine": "Japanese",
+  "recipeIngredient": [
+    "2 tbsp linseeds, also known as flaxseed",
+    "100g/3½oz plain flour",
+    "¾ sweetheart cabbage, thinly shredded (approximately 150g/5½oz)",
+    "2 spring onions, thinly sliced",
+    "2 tbsp vegetable oil ",
+    "1 tbsp tomato ketchup",
+    "2 tsp soy sauce",
+    "2 tsp nutritional yeast flakes, to garnish"
+  ],
+  "recipeInstructions": [
+    "Grind the linseeds with a pestle and mortar, or pop them in a sandwich bag and bash with a rolling pin. In a small bowl, mix 1 tablespoon linseeds with 5 tablespoons water. Set aside until there is no visible water and the mixture appears thickened and slightly gelatinous. ",
+    "Place the linseed mixture in a bowl with the flour. Gradually stir in 100ml/3½fl oz water until you have a smooth batter. Add the cabbage and most of the spring onions, reserving a small handful for the garnish. Mix thoroughly to coat all of the vegetables. ",
+    "Heat the oil in a large frying pan until shimmering hot. Add the cabbage mixture and push into an even layer, pressing down with a spatula to compact it. ",
+    "Cook for 3 minutes on the first side, regularly shaking the pan – it should be ready to flip when the whole pancake moves when you shake it, showing that it has crisped up underneath and is no longer sticking to the pan. Flip in one smooth motion (or use two spatulas to help flip it). If you’re nervous about flipping, put another frying pan or a plate on top and flip the whole thing over. If it breaks slightly, just use your spatula to press it down into a circle shape again. Cook the other side for 2–3 minutes.",
+    "Meanwhile, mix together the tomato ketchup and soy sauce in a small bowl. ",
+    "To serve, slide the pancake onto a plate, drizzle with the ketchup sauce and sprinkle with nutritional yeast and the reserved spring onions. "
+  ],
+  "recipeYield": "Serves 1",
+  "suitableForDiet": [
+    "http://schema.org/LowLactoseDiet",
+    "http://schema.org/VeganDiet",
+    "http://schema.org/VegetarianDiet"
+  ]
+}

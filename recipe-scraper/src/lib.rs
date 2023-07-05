@@ -135,6 +135,7 @@ fn normalize_root_recipe(ld_schema: ld_schema::RootRecipe, url: &str) -> Scraped
             ld_schema::InstructionWrapper::D(d) => {
                 d[0].clone().into_iter().map(|i| i.text).collect()
             }
+            ld_schema::InstructionWrapper::E(e) => e,
         },
 
         name: ld_schema.name,
