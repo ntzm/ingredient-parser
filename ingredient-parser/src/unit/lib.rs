@@ -110,8 +110,8 @@ impl FromStr for Unit {
             "hour" | "hr" => Self::Hour,
             "day" => Self::Day,
 
-            "fahrenheit" | "f" | "°" | "°f" | "degrees" => Self::Farhenheit,
-            "celcius" | "°c" => Self::Celcius,
+            "fahrenheit" | "f" | "°" | "°f" | "ºf" | "degrees" => Self::Farhenheit,
+            "celcius" | "°c" | "ºc" | "centigrade" => Self::Celcius,
             "\"" | "inch" => Self::Inch,
 
             _ => Self::Other(s.to_string()),
