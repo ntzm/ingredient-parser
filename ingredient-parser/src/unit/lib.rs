@@ -37,7 +37,7 @@ pub enum Unit {
     Second,
     // temperature
     Farhenheit,
-    Celcius,
+    Celsius,
     //distance
     Inch,
 
@@ -72,7 +72,7 @@ impl Unit {
             Unit::Hour => "hour",
             Unit::Minute => "minute",
             Unit::Second => "second",
-            Unit::Celcius => "°c",
+            Unit::Celsius => "°c",
             Unit::Farhenheit => "°F",
             Unit::Inch => "inch",
             Unit::Other(s) => return singular(&s),
@@ -111,7 +111,7 @@ impl FromStr for Unit {
             "day" => Self::Day,
 
             "fahrenheit" | "f" | "°" | "°f" | "ºf" | "degrees" => Self::Farhenheit,
-            "celcius" | "°c" | "ºc" | "centigrade" => Self::Celcius,
+            "celcius" | "celsius" | "°c" | "ºc" | "centigrade" => Self::Celsius,
             "\"" | "inch" => Self::Inch,
 
             _ => Self::Other(s.to_string()),

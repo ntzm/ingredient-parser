@@ -90,7 +90,7 @@ impl Measure {
             | Unit::Cent
             | Unit::KCal
             | Unit::Farhenheit
-            | Unit::Celcius // todo: convert to farhenheit?
+            | Unit::Celsius // todo: convert to farhenheit?
             | Unit::Inch
             | Unit::Second => return self.clone(),
             Unit::Other(x) => {
@@ -172,7 +172,7 @@ impl Measure {
             Unit::Teaspoon | Unit::Milliliter => Ok(MeasureKind::Volume),
             Unit::KCal => Ok(MeasureKind::Calories),
             Unit::Second => Ok(MeasureKind::Time),
-            Unit::Farhenheit | Unit::Celcius => Ok(MeasureKind::Temperature), // todo: convert to farhenheit?
+            Unit::Farhenheit | Unit::Celsius => Ok(MeasureKind::Temperature), // todo: convert to farhenheit?
             Unit::Inch => Ok(MeasureKind::Length),
             Unit::Other(_) => Ok(MeasureKind::Other),
             Unit::Kilogram
@@ -222,7 +222,7 @@ impl Measure {
             | Unit::Pound
             | Unit::Dollar
             | Unit::Farhenheit
-            | Unit::Celcius // todo: convert to farhenheit?
+            | Unit::Celsius // todo: convert to farhenheit?
             | Unit::Minute
             | Unit::Hour
             | Unit::Day => return self,
