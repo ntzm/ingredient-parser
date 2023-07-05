@@ -92,8 +92,8 @@ impl FromStr for Unit {
             "oz" | "ounce" => Self::Ounce,
             "lb" | "pound" => Self::Pound,
 
-            "ml" | "milliliter" => Self::Milliliter,
-            "l" | "liter" => Self::Liter,
+            "ml" | "milliliter" | "millilitre" => Self::Milliliter,
+            "l" | "liter" | "litre"  => Self::Liter,
 
             "tsp" | "teaspoon" => Self::Teaspoon,
             "tbsp" | "tablespoon" => Self::Tablespoon,
