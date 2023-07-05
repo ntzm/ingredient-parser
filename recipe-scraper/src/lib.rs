@@ -127,10 +127,16 @@ fn normalize_root_recipe(ld_schema: ld_schema::RootRecipe, url: &str) -> Scraped
             ld_schema::InstructionWrapper::C(c) => {
                 let selector = Selector::parse("p").unwrap();
 
-                Html::parse_fragment(c.as_ref())
+                let paragraphs = Html::parse_fragment(c.as_ref())
                     .select(&selector)
                     .map(|i| i.text().collect::<Vec<_>>().join(""))
-                    .collect::<Vec<_>>()
+                    .collect::<Vec<_>>();
+
+                if paragraphs.is_empty() {
+                    vec![c]
+                } else {
+                    paragraphs
+                }
             }
             ld_schema::InstructionWrapper::D(d) => {
                 d[0].clone().into_iter().map(|i| i.text).collect()

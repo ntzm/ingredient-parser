@@ -1,0 +1,44 @@
+ {
+  "@context": "http://schema.org",
+  "@type": "Recipe",
+  "image": [
+    "https://img.jamieoliver.com/jamieoliver/recipe-database/137896836.jpg?tr=w-800,h-800",
+    "https://img.jamieoliver.com/jamieoliver/recipe-database/137896836.jpg?tr=w-800,h-600",
+    "https://img.jamieoliver.com/jamieoliver/recipe-database/137896836.jpg?tr=w-800,h-450,fo-face"
+  ],
+  "name": "Kunde",
+  "description": "Kunde is the Swahili word for black-eyed peas or cowpeas. Serve these stewed peas, fragrant with tomatoes and peanuts, with cooked rice for a quick, affordable, very filling, and totally vegan meal. Feel free to add some diced sweet potatoes or peeled and chopped winter squash to the pot, along with some chopped dark leafy greens (like kale or collards), if you want to stretch the beans into a heartier and even healthier dish. Just simmer until the vegetables are tender.",
+  "recipeYield": "4 as a main dish, 6 as a side dish",
+  "recipeIngredient": [
+    "¼ cup unsalted roasted peanuts or 3 tablespoons creamy peanut butter ",
+    "2 tablespoons canola oil ",
+    "1  yellow onion, finely chopped ",
+    "1 teaspoon ground coriander ",
+    "1 teaspoon ground turmeric ",
+    "1 large tomato finely chopped ",
+    "  Kosher salt ",
+    "Two 15.5-ounce cans black-eyed peas drained and rinsed",
+    "½  cup water "
+  ],
+  "recipeInstructions": "If using whole peanuts, place them in a food processor and pulse until finely ground, almost like sand. Set the peanuts aside.\r\n\r\nWarm the oil in a medium saucepan set over medium heat. Add the onion and cook, stirring occasionally, until it begins to soften, about 5 minutes. Add the coriander and turmeric and cook, stirring, until fragrant, about 30 seconds. Add the tomato and a large pinch of salt and cook, stirring occasionally, until the liquid from the tomato has evaporated and the mixture is quite dry, about 5 minutes. Add the peas, peanuts (or peanut butter, if using), and water, increase the heat to high, and bring the mixture to a boil. Reduce the heat to low and simmer just until the peas have absorbed some of the wonderful flavor, about 5 minutes. Season the peas to taste with salt and serve immediately, while hot. Leftovers can be stored in an airtight container in the refrigerator for up to a few days and rewarmed in a heavy pot set over low heat (stir while you heat).\r\n\r\nReprinted with permission from In Bibi’s Kitchen by Hawa Hassan with Julia Turshen, copyright © 2020. Photographs by Khadija M. Farah & Jennifer May. Published by Ten Speed Press, a division of Penguin Random House, LLC.",
+  "keywords": "vegan, vegetables",
+  "recipeCuisine": [
+    "https://schema.org/VeganDiet"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "Hawa Hassan and Julia Turshen"
+  },
+  "nutrition": {
+    "calories": "0 calories",
+    "fatContent": "0 g fat",
+    "saturatedFatContent": "0 g saturated fat",
+    "proteinContent": "0 g protein",
+    "carbohydrateContent": "0 g carbohydrate",
+    "sugarContent": "0 g sugar",
+    "sodiumContent": "0 g salt",
+    "fiberContent": "0 g fibre",
+    "@type": "NutritionInformation"
+  },
+  "datePublished": "2022-09-27"
+}

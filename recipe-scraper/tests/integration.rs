@@ -119,6 +119,10 @@ fn json() {
     .unwrap();
     assert_eq!(r.instructions.len(), 7);
     assert_eq!(r.ingredients.len(), 17);
+
+    let r = scrape_from_json(include_testdata!("jamieoliver_kunde.json"), "a").unwrap();
+    assert_eq!(r.instructions.len(), 1);
+    assert_eq!(r.ingredients.len(), 9);
 }
 #[test]
 fn handle_no_ldjson() {
